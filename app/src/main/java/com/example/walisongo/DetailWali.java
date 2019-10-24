@@ -43,6 +43,9 @@ public class DetailWali extends AppCompatActivity {
             tvDetailWali.setText(getString(R.string.sAmpelDes));
             ivWali.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),
                     R.drawable.sunan_ampel));
+            
+            
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
     }
